@@ -1,0 +1,23 @@
+[30-Mar-2020 17:56:12 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /Users/jimin/Local Sites/fictional-university/app/public/experiment.php on line 1
+[30-Mar-2020 18:43:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 0 passed in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6 and exactly 1 expected in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:2
+Stack trace:
+#0 /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(6): greet()
+#1 /Users/jimin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(98): include('/Users/jimin/Lo...')
+#2 /Users/jimin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/jimin/Lo...')
+#3 /Users/jimin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/jimin/Lo...')
+#4 {main}
+  thrown in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[30-Mar-2020 19:40:24 UTC] PHP Warning:  Use of undefined constant count - assumed 'count' (this will throw an Error in a future version of PHP) in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[30-Mar-2020 19:40:24 UTC] PHP Stack trace:
+[30-Mar-2020 19:40:24 UTC] PHP   1. {main}() /Users/jimin/Local Sites/fictional-university/app/public/index.php:0
+[30-Mar-2020 19:40:24 UTC] PHP   2. require() /Users/jimin/Local Sites/fictional-university/app/public/index.php:17
+[30-Mar-2020 19:40:24 UTC] PHP   3. require_once() /Users/jimin/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Mar-2020 19:40:24 UTC] PHP   4. include() /Users/jimin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:98
+[30-Mar-2020 19:40:32 UTC] PHP Warning:  Use of undefined constant count - assumed 'count' (this will throw an Error in a future version of PHP) in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[30-Mar-2020 19:40:32 UTC] PHP Stack trace:
+[30-Mar-2020 19:40:32 UTC] PHP   1. {main}() /Users/jimin/Local Sites/fictional-university/app/public/index.php:0
+[30-Mar-2020 19:40:32 UTC] PHP   2. require() /Users/jimin/Local Sites/fictional-university/app/public/index.php:17
+[30-Mar-2020 19:40:32 UTC] PHP   3. require_once() /Users/jimin/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Mar-2020 19:40:32 UTC] PHP   4. include() /Users/jimin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:98
+[30-Mar-2020 23:50:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 3
+[30-Mar-2020 23:52:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jimin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 3
