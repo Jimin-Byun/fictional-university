@@ -13,7 +13,6 @@ get_header();
 </div>
 
 <div class="container container--narrow page-section">
-
 <ul class="link-list min-list">
   <?php 
     while(have_posts()) {
@@ -23,10 +22,6 @@ get_header();
       echo paginate_links();
     ?>
 </ul>
-
-  <hr class="section-break">
-  <p>Looking for a recap of past event? <a href="<?php echo site_url('/past-events') ?>">Check out our past events archive</a>.</p>
-
 </div>
 
 <?php
